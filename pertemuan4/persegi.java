@@ -10,4 +10,16 @@ package pertemuan4;
  */
 public class persegi extends bangundatar {
     float sisi;
+    
+@Override
+float luas (){
+    float rumus = sisi*sisi;
+    System.out.println("menampilkan hasil luas persegi" + rumus);
+    return 0;
+}
+float keliling(){
+    float rumus = 4*sisi;
+    System.out.println("menampilkan hasil keliling persegi" + rumus);
+    return 0;
+}
 }
